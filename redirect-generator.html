@@ -1,0 +1,64 @@
+<link rel="stylesheet" type="text/css" href="redirect-generator.css">
+
+<!-- Redirect Generator -->
+<!-- developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com -->
+<!-- Live Preview available at https://www.devilhunter.net/p/redirect-generator.html -->
+
+
+<div>
+    <div class="redirect-generator">
+        <div><h2>Page to Page Redirect</h2></div>
+        <div>Use this type if you want to redirect from one URL to another.</div>
+        <br><br>
+        <form id="page-page">
+            <input type="text" class="redirect-generator_input" name="old" placeholder="https://example.com/old-page.html">
+            <input type="text" class="redirect-generator_input" name="new" placeholder="https://example.com/new-page.html">
+            <select class="redirect-generator_select" name="page-gen-lang">
+                <option value="html" selected>HTML</option>
+                <option value="js">JavaScript</option>
+                <option value="php">PHP</option>
+                <option value="aspnet">ASP.NET</option>
+                <option value="htaccess">.htaccess</option>
+            </select>
+            <input class="redirect-generator_button" value="Generate Code" type="submit">
+        </form>
+        <textarea class="redirect-generator_textarea"></textarea>
+    </div>
+<br><br><br><br>
+    <div class="redirect-generator">
+        <div><h2>Domain to Domain Redirect</h2></div>
+        <div>Use this type if you want to redirect all pages from one domain to another.</div>
+        <br><br>
+        <form id="domain-domain">
+            <input type="text" class="redirect-generator_input" name="old" placeholder="old-domain.com">
+            <input type="text" class="redirect-generator_input" name="new" placeholder="new-domain.com">
+            <input class="redirect-generator_button" value="Generate Code" type="submit">
+        </form>
+        <textarea class="redirect-generator_textarea"></textarea>
+    </div>
+<br><br><br><br>
+    <div class="redirect-generator">
+        <div><h2>Directory to Directory Redirect</h2></div>
+        <div>Use this type if you want to redirect all pages from one directory to another.</div>
+        <br><br>
+        <form id="directory-directory">
+            <input type="text" class="redirect-generator_input" name="old" placeholder="/old_directory/">
+            <input type="text" class="redirect-generator_input" name="new" placeholder="/new_directory/">
+            <input class="redirect-generator_button" value="Generate Code" type="submit">
+        </form>
+        <textarea class="redirect-generator_textarea"></textarea>
+    </div>
+<br><br><br><br>
+    <div class="redirect-generator">
+        <div><h2>Redirect to www</h2></div>
+        <div>Use this type if you want to redirect all pages of your website to www domain.</div>
+        <br><br>
+        <form id="www">
+            <input type="text" class="redirect-generator_input" name="new" placeholder="domain.com">
+            <input class="redirect-generator_button" value="Generate Code" type="submit">
+        </form>
+        <textarea class="redirect-generator_textarea"></textarea>
+    </div>
+</div>
+
+<script src="redirect-generator.js"></script>
