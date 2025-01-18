@@ -1,4 +1,4 @@
-# Redirect Generator <br>
+# [Redirect Generator](https://www.devilhunter.net/p/redirect-generator.html) <br>
 HTML + JavaScript + CSS <br>
 * developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com <br>
 * Live Preview available at https://www.devilhunter.net/p/redirect-generator.html <br>
