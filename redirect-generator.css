@@ -24,6 +24,7 @@ body {
   border-radius: 5px;
   font-size: 14px;
   background-color: #ffffff;
+  box-sizing: border-box;
 }
 
 .redirect-generator_input:focus, .redirect-generator_select:focus {
