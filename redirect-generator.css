@@ -42,6 +42,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.5s ease;
+  box-sizing: border-box;
 }
 
 .redirect-generator_button:hover {
